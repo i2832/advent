@@ -18,7 +18,7 @@ body {
     font-size: clamp(24px, 6vw, 48px); /* Резиновый размер шрифта */
     text-align: center;
     margin: 20px 0;
-    color: #fff; /* Белый текст для контраста с фоном */
+    color: red;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень для текста */
     z-index: 1; /* Заголовок поверх фона */
 }
@@ -27,7 +27,7 @@ body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 0;
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон для календаря */
@@ -85,6 +85,6 @@ body {
 }
 
 .overlay-text {
-    font-size: 20px;
+    font-size: 30px;
     color: #333;
 }
