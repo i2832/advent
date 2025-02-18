@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const daysContainer = document.querySelector('.days');
     const overlay = document.querySelector('.overlay');
-    const overlayDate = document.querySelector('.overlay-date');
     const overlayText = document.querySelector('.overlay-text');
 
     const events = {
@@ -38,8 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
         31: "Жизнь это игра, но без правил и насмерть"
     };
 
-    const firstDayOfMonth = new Date(2005, 2, 1).getDay();
-    const daysInMonth = new Date(2005, 3, 0).getDate();
+    const firstDayOfMonth = new Date(2025, 2, 1).getDay();
+    const daysInMonth = new Date(2025, 3, 0).getDate();
 
     let dayCounter = 1;
 
@@ -59,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
     daysContainer.addEventListener('click', function(event) {
         if (event.target.dataset.day) {
             const day = event.target.dataset.day;
-            overlayDate.textContent = `${day} марта 2005 года`;
             overlayText.textContent = events[day] || "Нет информации о событиях в этот день.";
             overlay.style.display = 'flex';
         }
