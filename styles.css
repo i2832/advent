@@ -8,6 +8,27 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0;
+    position: relative;
+}
+
+.background-top, .background-bottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 150px; /* Высота фоновых изображений */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.background-top {
+    top: 0;
+    background-image: url('top-background.jpg'); /* Путь к изображению для верхнего фона */
+}
+
+.background-bottom {
+    bottom: 0;
+    background-image: url('bottom-background.jpg'); /* Путь к изображению для нижнего фона */
 }
 
 .title {
@@ -15,6 +36,7 @@ body {
     text-align: center;
     margin: 20px 0;
     color: #333;
+    z-index: 1; /* Заголовок поверх фона */
 }
 
 .calendar {
@@ -24,6 +46,7 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    z-index: 1; /* Календарь поверх фона */
 }
 
 .weekdays, .days {
