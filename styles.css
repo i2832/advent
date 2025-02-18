@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.title {
+    font-size: clamp(24px, 6vw, 48px); /* Резиновый размер шрифта */
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.weekdays, .days {
+    display: contents;
+}
+
+.weekdays div {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+.days div {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.days div.weekend {
+    color: red;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.overlay-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%;
+    position: relative;
+}
+
+.overlay-date {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.overlay-text {
+    font-size: 20px;
+}
