@@ -38,8 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
         31: "Если не ты, то кто? - выпьет этого прекрасного пива"
     };
 
-    const firstDayOfMonth = new Date(2025, 2, 1).getDay();
-    const daysInMonth = new Date(2025, 3, 0).getDate();
+    const firstDayOfMonth = new Date(2005, 2, 1).getDay();
+    const daysInMonth = new Date(2005, 3, 0).getDate();
 
     let dayCounter = 1;
 
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     daysContainer.addEventListener('click', function(event) {
         if (event.target.dataset.day) {
             const day = event.target.dataset.day;
-            overlayDate.textContent = `${day} марта 2025 года`;
+            overlayDate.textContent = `${day} марта 2005 года`;
             overlayText.textContent = events[day] || "Нет информации о событиях в этот день.";
             overlay.style.display = 'flex';
         }
