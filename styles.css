@@ -11,7 +11,7 @@ body {
     position: relative;
 }
 
-.background-top, .background-bottom {
+.background-bottom {
     position: absolute;
     left: 0;
     width: 100%;
@@ -21,14 +21,11 @@ body {
     z-index: -1;
 }
 
-.background-top {
-    top: 0;
-    background-image: url("https://disk.yandex.ru/i/sUPCDSU9W7YTSw"); /* Путь к изображению для верхнего фона */
-}
+
 
 .background-bottom {
     bottom: 0;
-    background-image: url("https://disk.yandex.ru/i/sUPCDSU9W7YTSw"); /* Путь к изображению для нижнего фона */
+    background-image: url('https://bogatyr.club/uploads/posts/2023-01/thumbs/1674805874_bogatyr-club-p-tsvetochnii-fon-dlya-prezentatsii-fon-2.jpg'); /* Путь к изображению для нижнего фона */
 }
 
 .title {
