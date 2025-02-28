@@ -13,7 +13,7 @@ body {
     background-attachment: fixed; /* Фиксируем фон при прокрутке */
     position: relative;
 }
-/https://github.com/i2832/advent/blob/main/womhap.jpg
+/*https://github.com/i2832/advent/blob/main/womhap.jpg
 .title {
     font-size: clamp(24px, 6vw, 48px); /* Резиновый размер шрифта */
     text-align: center;
