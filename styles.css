@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('https://github.com/i2832/advent/blob/main/womhap.jpg'); /* Путь к фоновому изображению */
+    background-image: url('https://i.ibb.co/237VDgF2/womhap.jpg'); /* Путь к фоновому изображению */
     background-size: cover; /* Растягиваем изображение на весь экран */
     background-position: center; /* Центрируем изображение */
     background-attachment: fixed; /* Фиксируем фон при прокрутке */
@@ -21,7 +21,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень для текста */
     z-index: 1; /* Заголовок поверх фона */
 }
-
+/*<a href="https://ibb.co/Kxj4MF5Z"><img src="https://i.ibb.co/237VDgF2/womhap.jpg" alt="womhap" border="0"></a>
 .calendar {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
