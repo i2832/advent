@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('//womhap.png'); /* Путь к фоновому изображению */
+    background-image: url('https://github.com/i2832/advent/blob/main/womhap.png'); /* Путь к фоновому изображению */
     background-size: cover; /* Растягиваем изображение на весь экран */
     background-position: center; /* Центрируем изображение */
     background-attachment: fixed; /* Фиксируем фон при прокрутке */
