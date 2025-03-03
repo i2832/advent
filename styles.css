@@ -7,19 +7,19 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('https://i.ibb.co/237VDgF2/womhap.jpg'); /* Путь к фоновому изображению */
-    background-size: cover; /* Растягиваем изображение на весь экран */
-    background-position: center; /* Центрируем изображение */
-    background-attachment: fixed; /* Фиксируем фон при прокрутке */
+    background-image: url('https://i.ibb.co/237VDgF2/womhap.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     position: relative;
 }
 .title {
-    font-size: clamp(24px, 6vw, 48px); /* Резиновый размер шрифта */
+    font-size: clamp(24px, 6vw, 48px);
     text-align: center;
     margin: 20px 0;
     color: red;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень для текста */
-    z-index: 1; /* Заголовок поверх фона */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 .calendar {
     display: grid;
@@ -28,10 +28,10 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.5); /* Полупрозрачный белый фон для календаря */
-    border-radius: 10px; /* Скругленные углы */
-    padding: 10px; /* Отступы внутри календаря */
-    z-index: 1; /* Календарь поверх фона */
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
 }
 
 .weekdays, .days {
@@ -41,14 +41,14 @@ body {
 .weekdays div {
     text-align: center;
     padding: 10px;
-    background-color: rgba(221, 221, 221, 0.5); /* Полупрозрачный фон для дней недели */
+    background-color: rgba(221, 221, 221, 0.5);
     font-weight: bold;
 }
 
 .days div {
     text-align: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.5); /* Полупрозрачный фон для дней */
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #ccc;
     cursor: pointer;
     font-size: 24px;
