@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    min-height: 100vh;
     background-image: url('https://i.ibb.co/237VDgF2/womhap.jpg');
     background-size: cover;
     background-position: center;
@@ -25,7 +25,7 @@ body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 0;
-    width: 90%;
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.5);
