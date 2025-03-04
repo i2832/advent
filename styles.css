@@ -14,7 +14,7 @@ body {
     position: relative;
 }
 .title {
-    font-size: clamp(20px, 6vw, 48px);
+    font-size: clamp(30px, 6vw, 48px);
     text-align: center;
     margin: 20px 0;
     color: red;
@@ -51,7 +51,7 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #ccc;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     transition: transform 0.3s ease;
 }
@@ -78,7 +78,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    max-width: 80%;
+    max-width: 70%;
     position: relative;
 }
 
