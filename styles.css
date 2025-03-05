@@ -15,7 +15,7 @@ body {
 }
 .title {
     font-size: clamp(30px, 6vw, 48px);
-    text-align: left;
+    text-align: start;
     text-padding: 20px;
     margin: 20px 0;
     color: red;
